@@ -29,7 +29,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "08/16/2023 07:15:06",
+  "HeaderLastSavedDateTimeUTC": "08/16/2023 07:15:56",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "318bc648-ecbf-4479-a6c7-67f5b2ea765b": "\"/providers/microsoft.powerapps/apis/shared_teams/connections/shared-teams-2b392d7a-c8ff-4486-97f5-fabc16cbe13b\"",
@@ -67,10 +67,10 @@
     "icon": 3,
     "image": 1,
     "label": 5,
-    "radio": 7,
+    "radio": 6,
     "rectangle": 2,
     "richTextEditor": 8,
-    "text": 6
+    "text": 7
   },
   "OverridablePropertiesEntry": {
     "App": {},
@@ -102,9 +102,9 @@
   "PCFTemplateEntry": {},
   "PublishOrderIndices": {
     "App": 0,
-    "btnPost_Main": 18,
+    "btnPost_Main": 19,
     "conBody_Main": 11,
-    "conFooter_Main": 16,
+    "conFooter_Main": 17,
     "conHeader_Main": 1,
     "conLoading_Main": 3,
     "conLoadingControls_Main": 5,
@@ -112,19 +112,19 @@
     "Flow Run Output": 8,
     "Host": 0,
     "icoFlowRunOutput_Main": 7,
-    "icoPostButton_Main": 19,
+    "icoPostButton_Main": 20,
     "imgAppLogo_Main": 2,
     "imgLoadingGIF_Main": 6,
-    "lblPleaseSelectAnItem_Main": 17,
+    "lblPleaseSelectAnItem_Main": 18,
     "lblPostingPleaseWait_Main": 10,
     "lblSelectItemToPost_Main": 12,
     "lblSelectItemToPost_Main_1": 14,
     "Main Screen": 0,
     "radOptionsToPost_main": 13,
-    "RichTextEditor2": 15,
+    "RichTextEditor2": 16,
     "shpExitClickable_Main": 4,
     "shpFlowRunIcoBG_Main": 9,
-    "TextInput1": 0
+    "TextInput1": 15
   },
   "ResourcesJsonIndices": {
     "Image-Disk-1s-200px": 2,

@@ -107,8 +107,9 @@
                 ZIndex: =5
 
             TextInput1 As text:
-                Default: ="Text input"
+                Default: =
                 Height: =199
+                HintText: ="Paster your Inline CSS Code here"
                 Mode: =TextMode.MultiLine
                 Width: =506
                 X: =50
@@ -147,7 +148,8 @@
                         //run the flow
                         //Set(gblFlowRun, '(DEV)MegawideTeamsAutomation'.Run(gblSelectedOptions.id,gblSelectedOptions.title, HtmlText1.HtmlText).flowrun);
                         Set(gblFlowRun, '(DEV)MegawideTeamsAutomation'.Run(gblSelectedOptions.id,gblSelectedOptions.title, TextInput1.Text).flowrun);
-                    )
+                    );
+                    Reset(TextInput1)
                 PaddingLeft: =icoPostButton_Main.Width + icoPostButton_Main.Width + 5
                 PaddingRight: =20
                 PressedColor: =Self.Color
