@@ -12,7 +12,6 @@
     "conMainBody_Main": 5,
     "Flow Run Output": 15,
     "Host": 3,
-    "HtmlText1": 26,
     "icoFlowRunOutput_Main": 12,
     "icoPostButton_Main": 24,
     "imgAppLogo_Main": 7,
@@ -25,11 +24,12 @@
     "radOptionsToPost_main": 18,
     "RichTextEditor2": 20,
     "shpExitClickable_Main": 9,
-    "shpFlowRunIcoBG_Main": 13
+    "shpFlowRunIcoBG_Main": 13,
+    "TextInput1": 28
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "08/16/2023 01:56:36",
+  "HeaderLastSavedDateTimeUTC": "08/16/2023 02:28:55",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "318bc648-ecbf-4479-a6c7-67f5b2ea765b": "\"/providers/microsoft.powerapps/apis/shared_teams/connections/shared-teams-2b392d7a-c8ff-4486-97f5-fabc16cbe13b\"",
@@ -61,16 +61,16 @@
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {
-    "button": 8,
+    "button": 9,
     "circle": 4,
     "groupContainer": 0,
-    "htmlViewer": 9,
     "icon": 3,
     "image": 1,
     "label": 5,
-    "radio": 6,
+    "radio": 7,
     "rectangle": 2,
-    "richTextEditor": 7
+    "richTextEditor": 8,
+    "text": 6
   },
   "OverridablePropertiesEntry": {
     "App": {},
@@ -83,7 +83,6 @@
     "conMainBody_Main": {},
     "Flow Run Output": {},
     "Host": {},
-    "HtmlText1": {},
     "icoFlowRunOutput_Main": {},
     "icoPostButton_Main": {},
     "imgAppLogo_Main": {},
@@ -96,7 +95,8 @@
     "radOptionsToPost_main": {},
     "RichTextEditor2": {},
     "shpExitClickable_Main": {},
-    "shpFlowRunIcoBG_Main": {}
+    "shpFlowRunIcoBG_Main": {},
+    "TextInput1": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
@@ -111,7 +111,6 @@
     "conMainBody_Main": 0,
     "Flow Run Output": 8,
     "Host": 0,
-    "HtmlText1": 0,
     "icoFlowRunOutput_Main": 7,
     "icoPostButton_Main": 19,
     "imgAppLogo_Main": 2,
@@ -124,7 +123,8 @@
     "radOptionsToPost_main": 13,
     "RichTextEditor2": 15,
     "shpExitClickable_Main": 4,
-    "shpFlowRunIcoBG_Main": 9
+    "shpFlowRunIcoBG_Main": 9,
+    "TextInput1": 0
   },
   "ResourcesJsonIndices": {
     "Image-Disk-1s-200px": 2,

@@ -90,6 +90,7 @@
             RichTextEditor2 As richTextEditor:
                 Default: ="Enter some <strong>rich text</strong> here."
                 Height: =conFooter_Main.Y - Self.Y - conFooter_Main.Height - Self.X
+                Visible: =false
                 Width: =Parent.Width - Self.X - Self. X
                 X: =40
                 Y: =303
@@ -104,6 +105,15 @@
                 X: =40
                 Y: =255
                 ZIndex: =5
+
+            TextInput1 As text:
+                Default: ="Text input"
+                Height: =199
+                Mode: =TextMode.MultiLine
+                Width: =506
+                X: =50
+                Y: =288
+                ZIndex: =6
 
         conFooter_Main As groupContainer.manualLayoutContainer:
             DropShadow: =DropShadow.None
@@ -135,7 +145,8 @@
                         UpdateContext({locShowLoadingRun: true});
                         Set(gblSelectedOptions, radOptionsToPost_main.Selected);
                         //run the flow
-                        Set(gblFlowRun, '(DEV)MegawideTeamsAutomation'.Run(gblSelectedOptions.id,gblSelectedOptions.title, HtmlText1.HtmlText).flowrun);
+                        //Set(gblFlowRun, '(DEV)MegawideTeamsAutomation'.Run(gblSelectedOptions.id,gblSelectedOptions.title, HtmlText1.HtmlText).flowrun);
+                        Set(gblFlowRun, '(DEV)MegawideTeamsAutomation'.Run(gblSelectedOptions.id,gblSelectedOptions.title, TextInput1.Text).flowrun);
                     )
                 PaddingLeft: =icoPostButton_Main.Width + icoPostButton_Main.Width + 5
                 PaddingRight: =20
@@ -262,12 +273,4 @@
                     Set(gblFlowRun, Blank())
                 Width: =Parent.Width
                 ZIndex: =4
-
-    HtmlText1 As htmlViewer:
-        Height: =282
-        HtmlText: =RichTextEditor2.HtmlText
-        Width: =769
-        X: =132
-        Y: =108
-        ZIndex: =3
 
