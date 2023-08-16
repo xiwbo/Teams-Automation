@@ -3,9 +3,9 @@
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
-    "btnPost_Main": 23,
+    "btnPost_Main": 24,
     "conBody_Main": 16,
-    "conFooter_Main": 21,
+    "conFooter_Main": 22,
     "conHeader_Main": 6,
     "conLoading_Main": 8,
     "conLoadingControls_Main": 10,
@@ -13,28 +13,28 @@
     "Flow Run Output": 15,
     "Host": 3,
     "icoFlowRunOutput_Main": 12,
-    "icoPostButton_Main": 24,
+    "icoPostButton_Main": 25,
     "imgAppLogo_Main": 7,
     "imgLoadingGIF_Main": 11,
-    "lblPleaseSelectAnItem_Main": 22,
+    "lblPleaseSelectAnItem_Main": 23,
     "lblPostingPleaseWait_Main": 14,
-    "lblSelectItemToPost_Main": 17,
-    "lblSelectItemToPost_Main_1": 19,
+    "lblSelectItemToPost_Main": 18,
+    "lblSelectItemToPost_Main_1": 20,
     "Main Screen": 4,
-    "radOptionsToPost_main": 18,
-    "RichTextEditor2": 20,
+    "radOptionsToPost_main": 19,
+    "RichTextEditor2": 21,
     "shpExitClickable_Main": 9,
     "shpFlowRunIcoBG_Main": 13,
-    "TextInput1": 28
+    "TextInput1": 17
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "08/16/2023 02:28:55",
+  "HeaderLastSavedDateTimeUTC": "08/16/2023 07:15:06",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "318bc648-ecbf-4479-a6c7-67f5b2ea765b": "\"/providers/microsoft.powerapps/apis/shared_teams/connections/shared-teams-2b392d7a-c8ff-4486-97f5-fabc16cbe13b\"",
     "7fa625ff-0ae4-41e2-a6ab-ecd2d781aa68": "\"/providers/microsoft.powerapps/apis/shared_onedriveforbusiness/connections/shared-onedriveforbu-914e5704-617d-496b-b373-5d762d7f991e\"",
-    "a91ceca7-e9fe-45d0-9666-5ab120e63941": "\"/providers/Microsoft.PowerApps/apis/shared_logicflows/connections/7BAFF77787E54D499E5F9BAD239025EA-CCA6C3BBB96C2670\""
+    "a91ceca7-e9fe-45d0-9666-5ab120e63941": "\"/providers/microsoft.powerapps/apis/shared_logicflows/connections/7baff77787e54d499e5f9bad239025ea-cca6c3bbb96c2670\""
   },
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {
@@ -42,8 +42,8 @@
     "megawide logo": "cc1fad76-8924-487b-80a8-1aae02541ccb.png"
   },
   "LocalResourceRootPaths": {
-    "Disk-1s-200px": "https://docserverpwaprodeas.blob.core.windows.net/7b07275d-fee6-4d37-bfd4-d1457d154d09-1/resource/Assets0Images03ba7bdf5-e7c9-4362-8444-08dbfb79bfb3.gif?sv=2018-03-28&sr=b&sig=qPCCEnU9PlPeC83PL2zIt4kSa8YBsdG9pJXhxPxa9Co%3D&spr=https&se=2023-08-17T01%3A52%3A54Z&sp=r",
-    "megawide logo": "https://docserverpwaprodeas.blob.core.windows.net/7b07275d-fee6-4d37-bfd4-d1457d154d09-1/resource/Assets0Images0cc1fad76-8924-487b-80a8-1aae02541ccb.png?sv=2018-03-28&sr=b&sig=ROptZew183anrBoFYr2U%2B8P0PwsoJN9cR6iRmoeOGRM%3D&spr=https&se=2023-08-17T01%3A52%3A54Z&sp=r"
+    "Disk-1s-200px": "https://docserverpwaprodseas.blob.core.windows.net/dfab37ae-dd25-464d-a305-0e49f716d2da-1/resource/Assets0Images03ba7bdf5-e7c9-4362-8444-08dbfb79bfb3.gif?sv=2018-03-28&sr=b&sig=aJGWJ4R9pJ3ictg5DG42tb2YN6nmQf7Fsjr6jEh4L8g%3D&spr=https&se=2023-08-17T07%3A29%3A30Z&sp=r",
+    "megawide logo": "https://docserverpwaprodseas.blob.core.windows.net/dfab37ae-dd25-464d-a305-0e49f716d2da-1/resource/Assets0Images0cc1fad76-8924-487b-80a8-1aae02541ccb.png?sv=2018-03-28&sr=b&sig=lBIOGysSiuieNd2zv0OoQ3tVJoQQ0I%2F%2BrB2WyEy8phg%3D&spr=https&se=2023-08-17T07%3A29%3A30Z&sp=r"
   },
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
@@ -134,7 +134,7 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.1064717,
+    "AnalysisLoadTime": 0.0988345,
     "ControlCount": {
       "button": 1,
       "circle": 1,
@@ -146,9 +146,10 @@
       "radio": 1,
       "rectangle": 1,
       "richTextEditor": 1,
-      "screen": 1
+      "screen": 1,
+      "text": 1
     },
-    "DeserializationLoadTime": 0.4276791
+    "DeserializationLoadTime": 0.472104
   },
   "WasLocalDatabaseReferencesEmpty": true
 }
