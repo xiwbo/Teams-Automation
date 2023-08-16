@@ -1,0 +1,150 @@
+{
+  "ComponentIndexes": {},
+  "ControlUniqueGuids": {},
+  "ControlUniqueIds": {
+    "App": 1,
+    "btnPost_Main": 23,
+    "conBody_Main": 16,
+    "conFooter_Main": 21,
+    "conHeader_Main": 6,
+    "conLoading_Main": 8,
+    "conLoadingControls_Main": 10,
+    "conMainBody_Main": 5,
+    "Flow Run Output": 15,
+    "Host": 3,
+    "icoFlowRunOutput_Main": 12,
+    "icoPostButton_Main": 24,
+    "imgAppLogo_Main": 7,
+    "imgLoadingGIF_Main": 11,
+    "lblPleaseSelectAnItem_Main": 22,
+    "lblPostingPleaseWait_Main": 14,
+    "lblSelectItemToPost_Main": 17,
+    "lblSelectItemToPost_Main_1": 19,
+    "Main Screen": 4,
+    "radOptionsToPost_main": 18,
+    "RichTextEditor2": 20,
+    "shpExitClickable_Main": 9,
+    "shpFlowRunIcoBG_Main": 13
+  },
+  "FunctionParamsInvariantScripts": {},
+  "FunctionParamsInvariantScriptsOnInstances": {},
+  "HeaderLastSavedDateTimeUTC": "08/16/2023 00:23:15",
+  "IsLegacyComponentAllowGlobalScopeCase": false,
+  "LocalConnectionIDReferences": {
+    "4e131916-3cab-4a2a-8503-6e15bf2182e9": "\"/providers/microsoft.powerapps/apis/shared_onedriveforbusiness/connections/shared-onedriveforbu-914e5704-617d-496b-b373-5d762d7f991e\"",
+    "c6d2808a-6f30-466d-baa6-2a25b905e5de": "\"/providers/microsoft.powerapps/apis/shared_teams/connections/shared-teams-2b392d7a-c8ff-4486-97f5-fabc16cbe13b\"",
+    "d4b76ecc-63e6-43f9-bb9c-1b2fce4f6e87": "\"/providers/microsoft.powerapps/apis/shared_logicflows/connections/eb536bd483d443d98dbd82c0f77f0981\""
+  },
+  "LocalDatabaseReferencesAsEmpty": false,
+  "LocalResourceFileNames": {
+    "Disk-1s-200px": "3ba7bdf5-e7c9-4362-8444-08dbfb79bfb3.gif",
+    "megawide logo": "cc1fad76-8924-487b-80a8-1aae02541ccb.png"
+  },
+  "LocalResourceRootPaths": {
+    "Disk-1s-200px": "https://docserverpwaprodeas.blob.core.windows.net/460db07a-91d1-48ef-84a6-d5998311fa0a-1/resource/Assets0Images03ba7bdf5-e7c9-4362-8444-08dbfb79bfb3.gif?sv=2018-03-28&sr=b&sig=nZCtTxoTA3%2B6Dq%2BxRKhJWPwEZ5AZ8Hwx4mi%2BdSiqh74%3D&spr=https&se=2023-08-17T00%3A37%3A09Z&sp=r",
+    "megawide logo": "https://docserverpwaprodeas.blob.core.windows.net/460db07a-91d1-48ef-84a6-d5998311fa0a-1/resource/Assets0Images0cc1fad76-8924-487b-80a8-1aae02541ccb.png?sv=2018-03-28&sr=b&sig=pdTgqIjitRs%2FXjp1D8%2FA1vwDBGlIWtF89q7RE%2BmQxbw%3D&spr=https&se=2023-08-17T00%3A37%3A09Z&sp=r"
+  },
+  "OrderComponentMetadata": {},
+  "OrderComponentTemplate": {},
+  "OrderDataSource": {
+    "(DEV)MegawideTeamsAutomation": 0,
+    "DropDownSample": 1,
+    "RadioSample": 2
+  },
+  "OrderGroupControls": {
+    "Flow Run Output": {
+      "icoFlowRunOutput_Main": 0,
+      "shpFlowRunIcoBG_Main": 1
+    }
+  },
+  "OrderPcfTemplate": {},
+  "OrderTemplate": {},
+  "OrderXMLTemplate": {
+    "button": 8,
+    "circle": 4,
+    "groupContainer": 0,
+    "icon": 3,
+    "image": 1,
+    "label": 5,
+    "radio": 6,
+    "rectangle": 2,
+    "richTextEditor": 7
+  },
+  "OverridablePropertiesEntry": {
+    "App": {},
+    "btnPost_Main": {},
+    "conBody_Main": {},
+    "conFooter_Main": {},
+    "conHeader_Main": {},
+    "conLoading_Main": {},
+    "conLoadingControls_Main": {},
+    "conMainBody_Main": {},
+    "Flow Run Output": {},
+    "Host": {},
+    "icoFlowRunOutput_Main": {},
+    "icoPostButton_Main": {},
+    "imgAppLogo_Main": {},
+    "imgLoadingGIF_Main": {},
+    "lblPleaseSelectAnItem_Main": {},
+    "lblPostingPleaseWait_Main": {},
+    "lblSelectItemToPost_Main": {},
+    "lblSelectItemToPost_Main_1": {},
+    "Main Screen": {},
+    "radOptionsToPost_main": {},
+    "RichTextEditor2": {},
+    "shpExitClickable_Main": {},
+    "shpFlowRunIcoBG_Main": {}
+  },
+  "PCFDynamicSchemaForIRRetrievalEntry": {},
+  "PCFTemplateEntry": {},
+  "PublishOrderIndices": {
+    "App": 0,
+    "btnPost_Main": 18,
+    "conBody_Main": 11,
+    "conFooter_Main": 16,
+    "conHeader_Main": 1,
+    "conLoading_Main": 3,
+    "conLoadingControls_Main": 5,
+    "conMainBody_Main": 0,
+    "Flow Run Output": 8,
+    "Host": 0,
+    "icoFlowRunOutput_Main": 7,
+    "icoPostButton_Main": 19,
+    "imgAppLogo_Main": 2,
+    "imgLoadingGIF_Main": 6,
+    "lblPleaseSelectAnItem_Main": 17,
+    "lblPostingPleaseWait_Main": 10,
+    "lblSelectItemToPost_Main": 12,
+    "lblSelectItemToPost_Main_1": 14,
+    "Main Screen": 0,
+    "radOptionsToPost_main": 13,
+    "RichTextEditor2": 15,
+    "shpExitClickable_Main": 4,
+    "shpFlowRunIcoBG_Main": 9
+  },
+  "ResourcesJsonIndices": {
+    "Image-Disk-1s-200px": 2,
+    "Image-megawide logo": 1,
+    "Image-SampleImage": 0
+  },
+  "RuleScreenIdWithoutScreen": {},
+  "TemplateVersions": {},
+  "VolatileProperties": {
+    "AnalysisLoadTime": 0.2043924,
+    "ControlCount": {
+      "button": 1,
+      "circle": 1,
+      "group": 1,
+      "groupContainer": 6,
+      "icon": 2,
+      "image": 2,
+      "label": 4,
+      "radio": 1,
+      "rectangle": 1,
+      "richTextEditor": 1,
+      "screen": 1
+    },
+    "DeserializationLoadTime": 0.6647976
+  },
+  "WasLocalDatabaseReferencesEmpty": true
+}

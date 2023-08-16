@@ -1,0 +1,265 @@
+"'Main Screen' As screen":
+    Fill: =RGBA(250, 250, 250, 1)
+
+    conMainBody_Main As groupContainer.manualLayoutContainer:
+        DropShadow: =DropShadow.Semibold
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =753
+        RadiusBottomLeft: =10
+        RadiusBottomRight: =10
+        RadiusTopLeft: =10
+        RadiusTopRight: =10
+        Width: =606
+        X: =(Parent.Width - Self.Width ) / 2
+        Y: =7
+        ZIndex: =1
+
+        conHeader_Main As groupContainer.manualLayoutContainer:
+            DropShadow: =DropShadow.None
+            Height: =120
+            RadiusBottomLeft: =0
+            RadiusBottomRight: =0
+            RadiusTopLeft: =0
+            RadiusTopRight: =0
+            Width: =Parent.Width
+            ZIndex: =4
+
+            imgAppLogo_Main As image:
+                Height: =54
+                Image: ='megawide logo'
+                Width: =303
+                X: =40
+                Y: =(Parent.Height - Self.Height ) / 2
+                ZIndex: =1
+
+        conBody_Main As groupContainer.manualLayoutContainer:
+            DropShadow: =DropShadow.None
+            Height: =conFooter_Main.Y - conFooter_Main.Height
+            RadiusBottomLeft: =0
+            RadiusBottomRight: =0
+            RadiusTopLeft: =0
+            RadiusTopRight: =0
+            Width: =Parent.Width
+            Y: =conHeader_Main.Height
+            ZIndex: =5
+
+            lblSelectItemToPost_Main As label:
+                Height: =33
+                Size: =12
+                Text: |-
+                    ="Select an item to post :"
+                Width: =239
+                X: |
+                    =40
+                Y: =21
+                ZIndex: =2
+
+            radOptionsToPost_main As radio:
+                FocusedBorderThickness: =0
+                Height: =150
+                HoverColor: =RGBA(255, 0, 0, 1)
+                Items: |-
+                    =[
+                        {
+                            title: "Announcements",
+                            id: 1
+                        },
+                        {
+                            title: "IT Advisory",
+                            id: 2
+                        },
+                        {
+                            title: "HumanEdge Reminders",
+                            id: 3
+                        },
+                        {
+                            title: "Holidays",
+                            id: 4
+                        }
+                    ]
+                LineHeight: =2
+                RadioBorderColor: =RGBA(0, 121, 187, 1)
+                RadioSelectionFill: =RGBA(255, 0, 0, 1)
+                RadioSize: =28
+                Size: =11
+                Width: =325
+                X: =40
+                Y: =63
+                ZIndex: =3
+
+            RichTextEditor2 As richTextEditor:
+                Default: ="Enter some <strong>rich text</strong> here."
+                Height: =conFooter_Main.Y - Self.Y - conFooter_Main.Height - Self.X
+                Width: =Parent.Width - Self.X - Self. X
+                X: =40
+                Y: =303
+                ZIndex: =4
+
+            lblSelectItemToPost_Main_1 As label:
+                Height: =33
+                Size: =12
+                Text: |-
+                    ="Insert HTML Code or CSS below :"
+                Width: =325
+                X: =40
+                Y: =255
+                ZIndex: =5
+
+        conFooter_Main As groupContainer.manualLayoutContainer:
+            DropShadow: =DropShadow.None
+            Height: =120
+            RadiusBottomLeft: =0
+            RadiusBottomRight: =0
+            RadiusTopLeft: =0
+            RadiusTopRight: =0
+            Width: =Parent.Width
+            Y: =Parent.Height - Self.Height
+            ZIndex: =6
+
+            btnPost_Main As button:
+                Align: =Align.Right
+                BorderThickness: =0
+                DisplayMode: =If(lblPleaseSelectAnItem_Main.Visible, DisplayMode.Disabled, DisplayMode.Edit)
+                Fill: =RGBA(0, 94, 146, 1)
+                FocusedBorderThickness: =0
+                Height: =41
+                HoverFill: =Self.Fill
+                OnSelect: |-
+                    =//to check if fields are blank
+                    If(IsBlank(radOptionsToPost_main.Selected),
+                        //show error message
+                        UpdateContext({locFieldsAreRequired: true}),
+                        //proceed to run
+                        UpdateContext({locFieldsAreRequired: false});
+                        //show loading screen
+                        UpdateContext({locShowLoadingRun: true});
+                        Set(gblSelectedOptions, radOptionsToPost_main.Selected);
+                        //run the flow
+                        Set(gblFlowRun, '(DEV)MegawideTeamsAutomation'.Run(gblSelectedOptions.id,gblSelectedOptions.title, RichTextEditor2.HtmlText).flowrun);
+                    )
+                PaddingLeft: =icoPostButton_Main.Width + icoPostButton_Main.Width + 5
+                PaddingRight: =20
+                PressedColor: =Self.Color
+                PressedFill: =Self.Fill
+                RadiusBottomLeft: =3
+                RadiusBottomRight: =3
+                RadiusTopLeft: =3
+                RadiusTopRight: =3
+                Size: =11
+                Text: |-
+                    ="POST
+                    "
+                Width: =109
+                X: =Parent.Width - Self.Width - 40
+                Y: =44
+                ZIndex: =1
+
+            icoPostButton_Main As icon.Send:
+                Color: =If(btnPost_Main.DisplayMode = DisplayMode.Disabled, btnPost_Main.DisabledColor,RGBA(255, 255, 255, 1))
+                Height: =41
+                Icon: =Icon.Send
+                Width: =21
+                X: =btnPost_Main.X + 20
+                Y: =btnPost_Main.Y
+                ZIndex: =2
+
+            lblPleaseSelectAnItem_Main As label:
+                Color: =RGBA(255, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
+                Height: =41
+                Size: =11
+                Text: ="Please select an item to post."
+                Visible: =locFieldsAreRequired And IsBlank(radOptionsToPost_main.Selected)
+                Width: =357
+                X: =48
+                Y: =44
+                ZIndex: =3
+
+        conLoading_Main As groupContainer.manualLayoutContainer:
+            Fill: =RGBA(255, 255, 255, 0.77)
+            Height: =Parent.Height
+            Visible: =locShowLoadingRun
+            Width: =Parent.Width
+            X: =
+            ZIndex: =7
+
+            conLoadingControls_Main As groupContainer.manualLayoutContainer:
+                DropShadow: =DropShadow.None
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Width: =Parent.Width
+                X: =(Parent.Width - Self.Width ) / 2
+                Y: =(Parent.Height - Self.Height ) / 2
+                ZIndex: =3
+
+                imgLoadingGIF_Main As image:
+                    Image: ='Disk-1s-200px'
+                    Visible: =IsBlank(gblFlowRun)
+                    X: =254
+                    Y: =21
+                    ZIndex: =1
+
+                lblPostingPleaseWait_Main As label:
+                    Align: =Align.Center
+                    Size: =11
+                    Text: |-
+                        =If(IsBlank(gblFlowRun), 
+                            "Posting.. Please wait..",
+                            Switch(gblFlowRun, 0, "Something went wrong. Please try again", 1, "Successfully posted")
+                        )
+                    Width: =230
+                    X: =189
+                    Y: =121
+                    ZIndex: =2
+
+                "'Flow Run Output' As group":
+                    Height: =5
+                    Width: =5
+                    X: =40
+                    Y: =40
+                    ZIndex: =5
+
+                    shpFlowRunIcoBG_Main As circle:
+                        Fill: |-
+                            =Switch(
+                                gblFlowRun,
+                                0,
+                                Color.Red,
+                                1,
+                                RGBA(
+                                    141,
+                                    198,
+                                    63,
+                                    1
+                                )
+                            )
+                        Height: =icoFlowRunOutput_Main.Height - 4
+                        Visible: =!IsBlank(gblFlowRun)
+                        Width: =icoFlowRunOutput_Main.Width - 4
+                        X: =275
+                        Y: =45
+                        ZIndex: =3
+
+                    icoFlowRunOutput_Main As icon.CheckBadge:
+                        Color: =RGBA(255, 255, 255, 1)
+                        Height: =60
+                        Icon: |
+                            =Switch(gblFlowRun, 0, Icon.CancelBadge, 1, Icon.CheckBadge)
+                        Visible: =!IsBlank(gblFlowRun)
+                        Width: =60
+                        X: =274
+                        Y: =44
+                        ZIndex: =4
+
+            shpExitClickable_Main As rectangle:
+                Fill: =RGBA(0, 0, 0, 0)
+                Height: =Parent.Height
+                OnSelect: |-
+                    =UpdateContext({locShowLoadingRun: false});
+                    Reset(radOptionsToPost_main);
+                    Set(gblFlowRun, Blank())
+                Width: =Parent.Width
+                ZIndex: =4
+
