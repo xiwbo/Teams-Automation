@@ -28,7 +28,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "08/16/2023 00:24:22",
+  "HeaderLastSavedDateTimeUTC": "08/16/2023 01:37:57",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "4e131916-3cab-4a2a-8503-6e15bf2182e9": "\"/providers/microsoft.powerapps/apis/shared_onedriveforbusiness/connections/shared-onedriveforbu-914e5704-617d-496b-b373-5d762d7f991e\"",
@@ -41,8 +41,8 @@
     "megawide logo": "cc1fad76-8924-487b-80a8-1aae02541ccb.png"
   },
   "LocalResourceRootPaths": {
-    "Disk-1s-200px": "https://docserverpwaprodeas.blob.core.windows.net/460db07a-91d1-48ef-84a6-d5998311fa0a-1/resource/Assets0Images03ba7bdf5-e7c9-4362-8444-08dbfb79bfb3.gif?sv=2018-03-28&sr=b&sig=nZCtTxoTA3%2B6Dq%2BxRKhJWPwEZ5AZ8Hwx4mi%2BdSiqh74%3D&spr=https&se=2023-08-17T00%3A37%3A09Z&sp=r",
-    "megawide logo": "https://docserverpwaprodeas.blob.core.windows.net/460db07a-91d1-48ef-84a6-d5998311fa0a-1/resource/Assets0Images0cc1fad76-8924-487b-80a8-1aae02541ccb.png?sv=2018-03-28&sr=b&sig=pdTgqIjitRs%2FXjp1D8%2FA1vwDBGlIWtF89q7RE%2BmQxbw%3D&spr=https&se=2023-08-17T00%3A37%3A09Z&sp=r"
+    "Disk-1s-200px": "https://docserverpwaprodeas.blob.core.windows.net/7b07275d-fee6-4d37-bfd4-d1457d154d09-1/resource/Assets0Images03ba7bdf5-e7c9-4362-8444-08dbfb79bfb3.gif?sv=2018-03-28&sr=b&sig=qPCCEnU9PlPeC83PL2zIt4kSa8YBsdG9pJXhxPxa9Co%3D&spr=https&se=2023-08-17T01%3A52%3A54Z&sp=r",
+    "megawide logo": "https://docserverpwaprodeas.blob.core.windows.net/7b07275d-fee6-4d37-bfd4-d1457d154d09-1/resource/Assets0Images0cc1fad76-8924-487b-80a8-1aae02541ccb.png?sv=2018-03-28&sr=b&sig=ROptZew183anrBoFYr2U%2B8P0PwsoJN9cR6iRmoeOGRM%3D&spr=https&se=2023-08-17T01%3A52%3A54Z&sp=r"
   },
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
@@ -130,7 +130,7 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.2043924,
+    "AnalysisLoadTime": 0.1064717,
     "ControlCount": {
       "button": 1,
       "circle": 1,
@@ -144,7 +144,7 @@
       "richTextEditor": 1,
       "screen": 1
     },
-    "DeserializationLoadTime": 0.6647976
+    "DeserializationLoadTime": 0.4276791
   },
   "WasLocalDatabaseReferencesEmpty": true
 }
