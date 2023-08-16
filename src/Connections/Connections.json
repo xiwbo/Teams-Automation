@@ -1,63 +1,44 @@
 {
-  "4e131916-3cab-4a2a-8503-6e15bf2182e9": {
+  "318bc648-ecbf-4479-a6c7-67f5b2ea765b": {
     "connectionRef": {
-      "apiTier": "Standard",
+      "displayName": "Microsoft Teams",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1652/1.0.1652.3394/teams/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_teams"
+    },
+    "datasets": {},
+    "dataSources": [],
+    "dependencies": {},
+    "dependents": [
+      "a91ceca7-e9fe-45d0-9666-5ab120e63941"
+    ],
+    "id": "318bc648-ecbf-4479-a6c7-67f5b2ea765b"
+  },
+  "7fa625ff-0ae4-41e2-a6ab-ecd2d781aa68": {
+    "connectionRef": {
       "displayName": "OneDrive for Business",
       "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1647/1.0.1647.3361/onedriveforbusiness/icon.png",
-      "id": "/providers/microsoft.powerapps/apis/shared_onedriveforbusiness",
-      "parameterHints": {},
-      "parameterHintsV2": {}
+      "id": "/providers/microsoft.powerapps/apis/shared_onedriveforbusiness"
     },
     "datasets": {},
     "dataSources": [],
     "dependencies": {},
     "dependents": [
-      "d4b76ecc-63e6-43f9-bb9c-1b2fce4f6e87"
+      "a91ceca7-e9fe-45d0-9666-5ab120e63941"
     ],
-    "id": "4e131916-3cab-4a2a-8503-6e15bf2182e9"
+    "id": "7fa625ff-0ae4-41e2-a6ab-ecd2d781aa68"
   },
-  "c6d2808a-6f30-466d-baa6-2a25b905e5de": {
+  "a91ceca7-e9fe-45d0-9666-5ab120e63941": {
     "connectionRef": {
-      "apiTier": "Standard",
-      "displayName": "Microsoft Teams",
-      "iconUri": "https://connectoricons-prod.azureedge.net/u/anladwig/releases/teamsRetryLogic/1.0.1646.3350/teams/icon.png",
-      "id": "/providers/microsoft.powerapps/apis/shared_teams",
-      "parameterHints": {},
-      "parameterHintsV2": {}
-    },
-    "datasets": {},
-    "dataSources": [],
-    "dependencies": {},
-    "dependents": [
-      "d4b76ecc-63e6-43f9-bb9c-1b2fce4f6e87"
-    ],
-    "id": "c6d2808a-6f30-466d-baa6-2a25b905e5de"
-  },
-  "d4b76ecc-63e6-43f9-bb9c-1b2fce4f6e87": {
-    "connectionRef": {
-      "apiTier": "Standard",
       "displayName": "Logic flows",
       "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1645/1.0.1645.3345/logicflows/icon.png",
       "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
       "parameterHints": {
-        "4e131916-3cab-4a2a-8503-6e15bf2182e9": {
-          "value": "shared_onedriveforbusiness"
-        },
-        "c6d2808a-6f30-466d-baa6-2a25b905e5de": {
-          "value": "shared_teams"
-        },
         "workflowEntityId": {},
         "workflowName": {
           "value": "7baff777-87e5-4d49-9e5f-9bad239025ea"
         }
       },
       "parameterHintsV2": {
-        "shared_onedriveforbusiness": {
-          "value": "4e131916-3cab-4a2a-8503-6e15bf2182e9"
-        },
-        "shared_teams": {
-          "value": "c6d2808a-6f30-466d-baa6-2a25b905e5de"
-        },
         "workflowEntityId": {},
         "workflowName": {
           "value": "7baff777-87e5-4d49-9e5f-9bad239025ea"
@@ -69,10 +50,10 @@
       "(DEV)MegawideTeamsAutomation"
     ],
     "dependencies": {
-      "shared_onedriveforbusiness": "4e131916-3cab-4a2a-8503-6e15bf2182e9",
-      "shared_teams": "c6d2808a-6f30-466d-baa6-2a25b905e5de"
+      "shared_onedriveforbusiness_1": "7fa625ff-0ae4-41e2-a6ab-ecd2d781aa68",
+      "shared_teams_1": "318bc648-ecbf-4479-a6c7-67f5b2ea765b"
     },
     "dependents": [],
-    "id": "d4b76ecc-63e6-43f9-bb9c-1b2fce4f6e87"
+    "id": "a91ceca7-e9fe-45d0-9666-5ab120e63941"
   }
 }

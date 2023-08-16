@@ -28,12 +28,12 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "08/16/2023 01:42:35",
+  "HeaderLastSavedDateTimeUTC": "08/16/2023 01:46:51",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
-    "4e131916-3cab-4a2a-8503-6e15bf2182e9": "\"/providers/microsoft.powerapps/apis/shared_onedriveforbusiness/connections/shared-onedriveforbu-914e5704-617d-496b-b373-5d762d7f991e\"",
-    "c6d2808a-6f30-466d-baa6-2a25b905e5de": "\"/providers/microsoft.powerapps/apis/shared_teams/connections/shared-teams-2b392d7a-c8ff-4486-97f5-fabc16cbe13b\"",
-    "d4b76ecc-63e6-43f9-bb9c-1b2fce4f6e87": "\"/providers/microsoft.powerapps/apis/shared_logicflows/connections/eb536bd483d443d98dbd82c0f77f0981\""
+    "318bc648-ecbf-4479-a6c7-67f5b2ea765b": "\"/providers/microsoft.powerapps/apis/shared_teams/connections/shared-teams-2b392d7a-c8ff-4486-97f5-fabc16cbe13b\"",
+    "7fa625ff-0ae4-41e2-a6ab-ecd2d781aa68": "\"/providers/microsoft.powerapps/apis/shared_onedriveforbusiness/connections/shared-onedriveforbu-914e5704-617d-496b-b373-5d762d7f991e\"",
+    "a91ceca7-e9fe-45d0-9666-5ab120e63941": "\"/providers/Microsoft.PowerApps/apis/shared_logicflows/connections/7BAFF77787E54D499E5F9BAD239025EA-CCA6C3BBB96C2670\""
   },
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {
