@@ -135,7 +135,7 @@
                         UpdateContext({locShowLoadingRun: true});
                         Set(gblSelectedOptions, radOptionsToPost_main.Selected);
                         //run the flow
-                        Set(gblFlowRun, '(DEV)MegawideTeamsAutomation'.Run(gblSelectedOptions.id,gblSelectedOptions.title, RichTextEditor2.HtmlText).flowrun);
+                        Set(gblFlowRun, '(DEV)MegawideTeamsAutomation'.Run(gblSelectedOptions.id,gblSelectedOptions.title, HtmlText1.HtmlText).flowrun);
                     )
                 PaddingLeft: =icoPostButton_Main.Width + icoPostButton_Main.Width + 5
                 PaddingRight: =20
@@ -262,4 +262,12 @@
                     Set(gblFlowRun, Blank())
                 Width: =Parent.Width
                 ZIndex: =4
+
+    HtmlText1 As htmlViewer:
+        Height: =282
+        HtmlText: =RichTextEditor2.HtmlText
+        Width: =769
+        X: =132
+        Y: =108
+        ZIndex: =3
 
